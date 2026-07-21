@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kayra-ML | Personal Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </head>
+  <body>
+    <div class="container">
+      
+      <!-- Hero Section -->
+      <section class="hero" id="home">
+        <p class="hero-subtitle">Hi, my name is</p>
+        <h1 class="hero-title">Kayra ML.</h1>
+        <h1 class="hero-title" style="color: var(--text-secondary);">I build <span id="typed-text"></span><span class="typed-cursor">|</span></h1>
+        <p class="hero-desc">
+          I'm a university student who fell in love with data. Currently exploring Machine Learning, Deep Learning architectures, and scalable full-stack applications.
+        </p>
+        <a href="#projects" class="btn">Check out my work!</a>
+      </section>
+
+      <!-- Projects Section -->
+      <section class="projects" id="projects">
+        <h2 class="section-heading">Featured Projects</h2>
+        <div class="projects-grid">
+          
+          <!-- Zcore -->
+          <div class="project-card">
+            <div class="project-top">
+              <i class="ph ph-folder project-icon"></i>
+              <div class="project-links">
+                <a href="https://github.com/Kayra-ML/zcore" target="_blank"><i class="ph ph-github-logo"></i></a>
+              </div>
+            </div>
+            <a href="https://github.com/Kayra-ML/zcore" target="_blank"><h3 class="project-title">Zcore</h3></a>
+            <p class="project-description">All-in-One Control Panel Ecosystem. Features a native Electron desktop app, a Next.js web panel, and a unified SQLite local-first database.</p>
+            <div class="project-tech">
+              <span>Next.js</span>
+              <span>Electron</span>
+              <span>React 19</span>
+              <span>Prisma</span>
+            </div>
+          </div>
+
+          <!-- LifeOS -->
+          <div class="project-card">
+            <div class="project-top">
+              <i class="ph ph-folder project-icon"></i>
+              <div class="project-links">
+                <a href="https://github.com/Kayra-ML/L-feOS" target="_blank"><i class="ph ph-github-logo"></i></a>
+              </div>
+            </div>
+            <a href="https://github.com/Kayra-ML/L-feOS" target="_blank"><h3 class="project-title">LifeOS</h3></a>
+            <p class="project-description">A Notion-powered personal life OS. Includes a FastAPI backend and a Flutter PWA for cross-platform task and goal management.</p>
+            <div class="project-tech">
+              <span>FastAPI</span>
+              <span>Flutter</span>
+              <span>Python</span>
+            </div>
+          </div>
+
+          <!-- Qbeat -->
+          <div class="project-card">
+            <div class="project-top">
+              <i class="ph ph-folder project-icon"></i>
+              <div class="project-links">
+                <a href="https://github.com/Kayra-ML/Qbeat" target="_blank"><i class="ph ph-github-logo"></i></a>
+              </div>
+            </div>
+            <a href="https://github.com/Kayra-ML/Qbeat" target="_blank"><h3 class="project-title">Qbeat</h3></a>
+            <p class="project-description">Advanced Discord cluster music bot with multi-server support. Handles complex audio streaming and queuing.</p>
+            <div class="project-tech">
+              <span>discord.py</span>
+              <span>Docker</span>
+              <span>asyncio</span>
+            </div>
+          </div>
+
+          <!-- Thomas -->
+          <div class="project-card">
+            <div class="project-top">
+              <i class="ph ph-folder project-icon"></i>
+              <div class="project-links">
+                <a href="https://github.com/Kayra-ML/thomas" target="_blank"><i class="ph ph-github-logo"></i></a>
+              </div>
+            </div>
+            <a href="https://github.com/Kayra-ML/thomas" target="_blank"><h3 class="project-title">Thomas Bot</h3></a>
+            <p class="project-description">An automated Discord registration and role management bot. Deployed on Railway for high availability.</p>
+            <div class="project-tech">
+              <span>Node.js</span>
+              <span>Discord.js</span>
+              <span>Railway</span>
+            </div>
+          </div>
+
+          <!-- F1 Analysis -->
+          <div class="project-card">
+            <div class="project-top">
+              <i class="ph ph-folder project-icon"></i>
+              <div class="project-links">
+                <a href="https://github.com/Kayra-ML/fast_f1_data" target="_blank"><i class="ph ph-github-logo"></i></a>
+              </div>
+            </div>
+            <a href="https://github.com/Kayra-ML/fast_f1_data" target="_blank"><h3 class="project-title">F1 Data Analysis</h3></a>
+            <p class="project-description">Formula 1 big data analysis platform. Aggregates telemetry data and visualizes race statistics.</p>
+            <div class="project-tech">
+              <span>FastAPI</span>
+              <span>PostgreSQL</span>
+              <span>React</span>
+            </div>
+          </div>
+          
+          <!-- QuantumAi -->
+          <div class="project-card">
+            <div class="project-top">
+              <i class="ph ph-folder project-icon"></i>
+              <div class="project-links">
+                <a href="https://github.com/Kayra-ML/QuantumAi" target="_blank"><i class="ph ph-github-logo"></i></a>
+              </div>
+            </div>
+            <a href="https://github.com/Kayra-ML/QuantumAi" target="_blank"><h3 class="project-title">Orchestra AI</h3></a>
+            <p class="project-description">Multi-agent AI orchestration platform featuring a Retrieval-Augmented Generation (RAG) chatbot.</p>
+            <div class="project-tech">
+              <span>LangChain</span>
+              <span>Ollama</span>
+              <span>ChromaDB</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="skills" id="skills">
+        <h2 class="section-heading">My Arsenal</h2>
+        <div class="skills-container">
+          <div class="skill-tag">Python</div>
+          <div class="skill-tag">TypeScript</div>
+          <div class="skill-tag">JavaScript</div>
+          <div class="skill-tag">Next.js</div>
+          <div class="skill-tag">React</div>
+          <div class="skill-tag">Electron</div>
+          <div class="skill-tag">FastAPI</div>
+          <div class="skill-tag">Node.js</div>
+          <div class="skill-tag">PostgreSQL</div>
+          <div class="skill-tag">SQLite</div>
+          <div class="skill-tag">Docker</div>
+          <div class="skill-tag">Machine Learning</div>
+          <div class="skill-tag">Scikit-Learn</div>
+          <div class="skill-tag">Pandas</div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <p>Built by Kayra-ML</p>
+        <div style="margin-top: 10px; font-size: 24px;">
+          <a href="https://github.com/Kayra-ML" target="_blank" style="margin: 0 10px;"><i class="ph ph-github-logo"></i></a>
+        </div>
+      </footer>
+
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
